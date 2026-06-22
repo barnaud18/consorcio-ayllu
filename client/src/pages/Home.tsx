@@ -5,7 +5,7 @@ import { useEffect } from "react";
  */
 export default function Home() {
   useEffect(() => {
-    window.location.replace("/index-ayllu.html");
+    window.location.replace("./index-ayllu.html");
   }, []);
 
   return (
